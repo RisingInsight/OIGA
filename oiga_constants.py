@@ -1,0 +1,27 @@
+"""Paper-aligned public defaults for OIGA.
+
+These values mirror the settings reported in the manuscript. They are kept in
+code because review-stage configuration files are not part of this subset.
+"""
+
+MODALITIES = ("RGB", "NIR", "DEM", "SPOT")
+MODALITY_TO_ID = {name: idx for idx, name in enumerate(MODALITIES)}
+IMAGE_LIKE_MODALITIES = (0, 1, 3)
+GEOMETRIC_MODALITIES = (2,)
+NUM_MODALITIES = 4
+NULL_MODALITY = 4
+IMAGE_SIZE = 512
+LATENT_CHANNELS = 4
+PATCH_SIZE = 2
+
+SIT_DEPTH = 24
+SIT_WIDTH = 1024
+SIT_HEADS = 16
+CROSS_ATTN_LAYERS = (3, 6, 9, 12, 15, 18, 21, 23)
+
+LORA_RANK = 16
+LORA_ALPHA = 16
+ADAPTER_REDUCTION = 2
+NUM_ADAPTERS = 4
+CFG_SCALE = 1.5
+TEST_SAMPLES_PER_MODALITY = 500
