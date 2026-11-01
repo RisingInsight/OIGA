@@ -4,9 +4,7 @@
 
 **Zhikun Li, Kexin Sun, Bei Zhu, Xun Jiang, Qichen Tan** | Under review at IEEE TCSVT
 
-> Official repository for the OIGA paper.
-
-> The code will be released upon paper acceptance.
+> Official repository for the OIGA paper. The code will be released upon paper acceptance.
 
 [![Paper](https://img.shields.io/badge/Paper-Under%20Review-red)](https://github.com/RisingInsight/OIGA)
 [![Framework](https://img.shields.io/badge/Framework-Flow%20Matching-blue)]()
