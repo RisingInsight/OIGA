@@ -6,6 +6,8 @@
 
 > Official repository for the OIGA paper.
 
+> The code will be released upon paper acceptance.
+
 [![Paper](https://img.shields.io/badge/Paper-Under%20Review-red)](https://github.com/RisingInsight/OIGA)
 [![Framework](https://img.shields.io/badge/Framework-Flow%20Matching-blue)]()
 [![License](https://img.shields.io/badge/License-MIT-green)]()
