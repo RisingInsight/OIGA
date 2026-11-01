@@ -1,8 +1,4 @@
-"""Paper-aligned public defaults for OIGA.
-
-These values mirror the settings reported in the manuscript. They are kept in
-code because review-stage configuration files are not part of this subset.
-"""
+"""Public defaults used by the OIGA interface."""
 
 MODALITIES = ("RGB", "NIR", "DEM", "SPOT")
 MODALITY_TO_ID = {name: idx for idx, name in enumerate(MODALITIES)}

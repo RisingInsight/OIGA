@@ -30,4 +30,4 @@ class SiT_OIGA(nn.Module):
         self.lora_alpha = lora_alpha
 
     def forward(self, x, t, src_id, tgt_id, source_latent, text_tokens=None):
-        raise NotImplementedError("The full SiT implementation is not included in this subset.")
+        raise NotImplementedError

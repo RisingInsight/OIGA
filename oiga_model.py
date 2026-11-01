@@ -1,8 +1,4 @@
-"""Public interface for the OIGA model.
-
-The full implementation is not part of this review-stage subset. The signatures
-below define the public contract used by the training and inference entry points.
-"""
+"""Public interface for the OIGA model."""
 
 import pytorch_lightning as pl
 
@@ -30,16 +26,16 @@ class OIGA(pl.LightningModule):
 
         source/target are images; src_id/tgt_id are modality indices; text_tokens encode Y.
         """
-        raise NotImplementedError("The full OIGA implementation is not included in this subset.")
+        raise NotImplementedError
 
     def training_step(self, batch, batch_idx):
-        raise NotImplementedError("The full OIGA implementation is not included in this subset.")
+        raise NotImplementedError
 
     def validation_step(self, batch, batch_idx, dataloader_idx=None):
-        raise NotImplementedError("The full OIGA implementation is not included in this subset.")
+        raise NotImplementedError
 
     def test_step(self, batch, batch_idx, dataloader_idx=None):
-        raise NotImplementedError("The full OIGA implementation is not included in this subset.")
+        raise NotImplementedError
 
     def configure_optimizers(self):
-        raise NotImplementedError("The full OIGA implementation is not included in this subset.")
+        raise NotImplementedError

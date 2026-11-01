@@ -21,13 +21,13 @@ class FLAIRDataModule(pl.LightningDataModule):
         self.modalities = MODALITIES
 
     def setup(self, stage=None):
-        raise NotImplementedError("The full data pipeline is not included in this subset.")
+        raise NotImplementedError
 
     def train_dataloader(self):
-        raise NotImplementedError("The full data pipeline is not included in this subset.")
+        raise NotImplementedError
 
     def val_dataloader(self):
-        raise NotImplementedError("The full data pipeline is not included in this subset.")
+        raise NotImplementedError
 
     def test_dataloader(self):
-        raise NotImplementedError("The full data pipeline is not included in this subset.")
+        raise NotImplementedError

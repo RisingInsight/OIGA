@@ -13,4 +13,4 @@ class CLIPTextEncoderLoRA(nn.Module):
         self.alpha = alpha
 
     def forward(self, text_tokens):
-        raise NotImplementedError("The full CLIP-LoRA implementation is not included in this subset.")
+        raise NotImplementedError

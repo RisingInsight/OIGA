@@ -12,8 +12,6 @@
 
 </div>
 
-> **Review-stage subset.** This repository provides the data-preparation script and interface skeletons. The full core implementation will be released after paper acceptance.
-
 ---
 
 ## Abstract
@@ -267,9 +265,4 @@ The primary contributions are:
 
 ## Code Release
 
-This is a review-stage subset of the OIGA codebase. It provides:
-
-- `preprocess_oiga.py`: FLAIR-HUB TIFF-shard conversion and normalization.
-- Interface-level skeleton files for the OIGA model, data pipeline, losses, and entry points.
-
-The core implementation, training configurations, instruction pool, checkpoints, and full evaluation code are intentionally omitted from this review-stage subset. The complete codebase will be released after paper acceptance.
+This repository includes `preprocess_oiga.py`, public interface definitions, and the project visual materials.

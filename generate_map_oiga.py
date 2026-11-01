@@ -1,9 +1,4 @@
-"""Generation entry point for OIGA.
-
-The target modality is resolved from the open instruction; there is no explicit
-target-modality argument in the public interface. The full implementation is
-not included in this review-stage subset.
-"""
+"""Generation entry point for OIGA."""
 
 import argparse
 
@@ -15,7 +10,7 @@ def main():
     parser.add_argument("--source_path", type=str, default=None)
     parser.add_argument("--output_path", type=str, default="output.png")
     parser.parse_args()
-    raise NotImplementedError("The full entry point is not included in this subset.")
+    raise NotImplementedError
 
 
 if __name__ == "__main__":
