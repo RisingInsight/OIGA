@@ -1,6 +1,6 @@
 <div align="center">
 
-# OIGA: Open Instruction Guided Arbitrary-Modality Aerial Image Translation via a Single Shared-Latent Flow Matching Framework
+# OIGA: Open Instruction Guided Arbitrary-Modality Aerial Image Translation via a Single Shared-Latent Flow Matching
 
 **Zhikun Li, Kexin Sun, Bei Zhu, Xun Jiang, Qichen Tan** | Under review at IEEE TGRS
 
